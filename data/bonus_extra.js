@@ -1,0 +1,15 @@
+window.BONUS_EXTRA_POOL = [
+  {name: '传说女帝', quality: 'red', image: '../images/items_box/传说女帝/bonus.png', weight: 0.1},
+  {name: '王者之魄-传说光耀', quality: 'red', image: '../images/items_box/王者之魄-传说光耀/bonus.png', weight: 0.25},
+  {name: '王者之翼-传说夜影', quality: 'red', image: '../images/items_box/王者之翼-传说夜影/bonus.png', weight: 0.25},
+  {name: 'SCAR Light-玄豹', quality: 'gold', image: '../images/items_box/SCAR Light-玄豹/bonus.png', weight: 1.5},
+  {name: '左轮-玄豹', quality: 'gold', image: '../images/items_box/左轮-玄豹/bonus.png', weight: 2.5},
+  {name: '丛林匕首-玄豹', quality: 'gold', image: '../images/items_box/丛林匕首-玄豹/bonus.png', weight: 3.0},
+  {name: '手雷-玄豹', quality: 'gold', image: '../images/items_box/手雷-玄豹/bonus.png', weight: 6.5},
+  {name: '闪光弹-玄豹', quality: 'gold', image: '../images/items_box/闪光弹-玄豹/bonus.png', weight: 6.0},
+  {name: '烟雾弹-玄豹', quality: 'gold', image: '../images/items_box/烟雾弹-玄豹/bonus.png', weight: 6.0},
+  {name: '神话臻藏兑换币×12', quality: 'purple', image: '../images/items_box/神话臻藏兑换币/bonus.png', weight: 12.0},
+  {name: '神话臻藏兑换币×8', quality: 'purple', image: '../images/items_box/神话臻藏兑换币/bonus.png', weight: 20.0},
+  {name: '神话臻藏兑换币×5', quality: 'purple', image: '../images/items_box/神话臻藏兑换币/bonus.png', weight: 25.0},
+  {name: '神话臻藏兑换币×3', quality: 'purple', image: '../images/items_box/神话臻藏兑换币/bonus.png', weight: 16.9},
+];
