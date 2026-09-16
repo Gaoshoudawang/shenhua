@@ -1470,7 +1470,10 @@ var PRELOAD_RESOURCES = [
   'images/common/home/bg.png',
   'images/common/home/weapon_float.png',
   'images/common/pages/buy/confirm_bg.png',
-  'images/common/pages/buy/shop_bg.png',
+  'images/common/pages/buy/shop_bg_0.png',
+  'images/common/pages/buy/shop_bg_1.png',
+  'images/common/pages/buy/shop_bg_2.png',
+  'images/common/pages/buy/shop_bg_3.png',
   'images/common/pages/decompose/single_bg.png',
   'images/common/pages/decompose/ten_bg.png',
   'images/common/pages/exchange/confirm_bg.png',
@@ -2339,7 +2342,7 @@ html,body{width:100%;height:100%;overflow:hidden;background:#000}
 </style>  <script src="data/bonus_extra.js"></script>
   <script src="data/bonus_mythic.js"></script>
 </head><body>
-<img class="shop-bg" id="shopBg" src="images/common/pages/buy/shop_bg.png">
+<img class="shop-bg" id="shopBg" src="images/common/pages/buy/shop_bg_0.png">
 <button class="shop-btn" id="shopClose" style="left:75%;top:14%;width:7%;height:9%"></button>
 <button class="shop-btn" data-tier="0" onclick="currentTier=0;document.getElementById('shopBg').src=shopImages[0];" style="left:55%;top:25%;width:26%;height:10%"></button>
 <button class="shop-btn" data-tier="1" onclick="currentTier=1;document.getElementById('shopBg').src=shopImages[1];" style="left:55%;top:37%;width:26%;height:10%"></button>
@@ -2376,10 +2379,10 @@ function playCloseShopSound(){
 }
 
 var shopImages = [
-  "images/common/pages/buy/shop_bg.png",
-  "images/common/pages/buy/shop_bg.png",
-  "images/common/pages/buy/shop_bg.png",
-  "images/common/pages/buy/shop_bg.png"
+  "images/common/pages/buy/shop_bg_0.png",
+  "images/common/pages/buy/shop_bg_1.png",
+  "images/common/pages/buy/shop_bg_2.png",
+  "images/common/pages/buy/shop_bg_3.png"
 ];
 var currentTier = 0;
 var tierPrices = [6, 50, 328, 648];
